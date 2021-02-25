@@ -23,7 +23,8 @@ class TestCaseFactorial(unittest.TestCase):
     def test3(self):
         self.assertEqual(fib.factorial(3),6)
 
-#Purposeful failures using the unittest module, 
+#Purposeful failures using the unittest module, had to comment out due to pytest throwing errors with @unittest.expectedFailure
+
 #class TestCaseExpectedFailure(unittest.TestCase):
 #    @unittest.expectedFailure
 #    def test0(self):
